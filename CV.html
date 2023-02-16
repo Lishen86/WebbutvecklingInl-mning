@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--Har angett aktuellt språk med hjälp av lang-attribut. (Riktlinje nr: 141)-->
+<html lang="sv">
+    <head>
+        <!--Har lagt till taggen "viewport" för att styra visningsområdets storlek och form-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Detta är en länk till min css fil som heter cv.css -->
+        <link rel="stylesheet" href="cv.css">
+        <meta charset="utf-8">
+        <!--En titel med mitt namn-->
+    <title>Curiculum Vitae - Lisa Enervald</title>
+    </head>
+    <body>
+        <!--Skapat en div till min navigationspanel som jag döpt till Navigation-->
+        <!--Jag har använt mig av en oordnad lista – punktlista, för att användaren ska förstå att detta just är en lista (Riktlinje nr: 104)-->     
+        <div class="Navigation">
+        <ul>
+            <li><a href="index.html">HEM</a></li>
+            <li><a href="CV.html">CV</a></li>
+            <li><a href="Kontakt.html">KONTAKT</a></li>
+        </ul>
+        </div>
+        <!--Skapat en knapp som kör funktionen randomCol vid klick, även lagt in en länk till min javaScript fil-->
+        <button class="button-56" type="button" onclick="randomCol()">Ändra bakgrundsfärg</button>
+        <script src="color.js"></script>
+        <!--Skapat en div som innehåller all min text på hemsidan  med flera headers som jag döpt efter kategori-->
+        <div class="text">
+            <br>
+            <h2><u>OM MIG</u></h2>
+            En empatisk och medkännande person som brinner för design och som så 
+            länge jag kan minnas har älskat att rita och skapa i alla dess former.
+            För närvarande studerar jag min andra termin på Chas Academy till UX-designer med kravkompetens.
+            Utöver detta är jag mamma till två söner, därav spenderas majoriteten av min fritid ihop med familjen.
+            I kombination med detta gör jag mitt bästa för att lära mig det mesta inom IT.
+            
+            <h2><u>ARBETSHISTORIA</u></h2>
+            <b>2019 - 2022</b>
+                <br>
+                <b>KUNDTJÄNSTMEDARBETARE & PROVFÖRRÄTTARE,</b> TRAFIKVERKET FÖRARPROV
+                <br>
+                <br>
+                <b>2018 – 2019</b>
+                <br>
+                <b>JUNIOR ECOMMERCE & SYSTEM SPECIALIST,</b><br> JOHNSON & JOHNSON
+                <br>
+                <br>
+                <b>JAN 2018 – JULI 2018</b><br>
+                <b>KUNDTJÄNSTMEDARBETARE,</b><br> LÄNNA MÖBLER AB
+                <br>
+                <br>
+                <b>2017 – 2018</b><br>
+                <b>SERVICE & OFFICE MANAGER,</b><br>BERRIES BY ASTRID AB
+                <br>
+                <br>
+                <b>2011 - 2017</b>
+                <br>
+                <b>MEDICINSK FOTVÅRDARE,</b><br>
+                SÖDERS SPA AB
+                
+           <!--Här har jag skapat en osorterad lista över mina färdigheter-->
+           <!--Jag har använt mig av en oordnad lista – punktlista,för att användaren ska förstå att detta just är en lista (Riktlinje nr: 104)-->     
+        <h2><u>FÄRDIGHETER</u></h2>
+        <ul>
+        <li>Microsoft Office-paketet - Word/PowerPoint/Excel</li>
+        <li>Figma</li>
+        <li>Visual Studio Code</li>
+        <li>Github</li>
+        <li>HTML/CSS</li>
+        <li>Jira</li>
+        <li>LimeGo</li>
+        <li>Cignon</li> 
+        <li>JD Edwards 8.12</li>
+        <li>PDC</li>
+        <li>Customer Connect</li>
+        <li>Zendesk</li>
+        <li>Salesforce</li>
+        <li>SiteDirect</li>
+        </ul>
+        </div>
+        <br>
+        <!--Här har jag lagt in en bild som jag sparat som en jpg fil-->
+        <img src="IMG_6537.jpg">
+    </body>
+</html>

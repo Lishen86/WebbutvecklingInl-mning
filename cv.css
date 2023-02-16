@@ -1,0 +1,120 @@
+div.text {
+    color: rgb(9, 9, 8);
+    width: 500px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  position: absolute;
+  right: 10px;
+  top: 70px;
+  width: 175px; 
+  opacity:0,9;
+  border-radius: 8px; 
+}
+@media screen and (max-width: 600px) {
+  img {
+    width: 87px;
+  }
+}
+body {
+    background-color:aliceblue;
+    background-size: cover;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+b {
+    color: rgb(69, 70, 44);
+}
+div.Navigation li {
+    display: inline;
+    font-size: x-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+div.Navigation a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+div.Navigation ul {
+    background-color:aliceblue;
+    border-style: outset;
+}
+h2 {
+    font-family:serif;
+    font-style:italic
+}
+div.HemText {
+    color:black;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.HemText h1 {
+    text-align: center;
+}
+div.KontaktText {
+    text-align: center;
+}
+
+.button-56 {
+  align-items: center;
+  background-color: aliceblue;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: aliceblue;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 600px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
